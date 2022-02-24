@@ -1,16 +1,27 @@
 @media (min-width: 500px){
-    body{
-        background-image: url(/css/bandera.jpg);
-        background-position:center; 
-    background-repeat: no-repeat; 
-    background-size: 100% 100%; 
-    background-attachment:fixed;
+    .barranav{
+        background-color:#90EE90;
     }
-  
+
 }
 @media (max-width: 500px)
 {
-    body{
-        background-color: #5F9EA0;
+    .barranav{
+        background-color:	#7FFF00;
     }
 }
+.barranav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body{
+    background-image: url(/css/fondo.jpg); 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-attachment:fixed;
+}
+
+
