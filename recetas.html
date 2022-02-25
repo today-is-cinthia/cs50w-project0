@@ -12,11 +12,37 @@
 
     <link rel="stylesheet" href="/css/style.css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  
+
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 30%;
+        margin-top: 4%;
+        position: fixed;
+        background-color:	#C0C0C0;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #8FBC8F;
+      }
+      </style>
+
 </head>
 <body>
     <div class="barranav">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Recetas de Fritanga</a>
+          <a class="navbar-brand" style="font-family: 'Playfair Display', serif;">Recetas de Fritanga</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,10 +57,26 @@
         </nav>
       </div>
 
-      <br><br><br><div class="container p-3 my-3 bg-dark text-white">
-        <center><h1> Recetas</h1></center>
-        <center><p>Lista de Recetas totalmente niaraguenses</p></center>
-      </div>
+      <table>
+        <tr>
+          <th>Bebidas</th>
+          <th>Platillos</th>
+          <tr>
+          <td>  <a href="b1">Semilla de Jícaro</a></td>
+            <td> <a href="p1">Nacatamal</a></td>
+          </tr>
+          <tr>
+            <td> <a href="b2">Pinolillo</a></td>
+            <td> <a href="p2">Vigorón</a></td>
+          </tr>
+          <tr>
+            <td><a href="b3">Chicha de maíz</a></td>
+            <td><a href="p3">Quesillo</a></td>
+          </tr>
+        </tr>
+      </table>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>       
