@@ -9,6 +9,9 @@
     .barranav{
         background-color:	#7FFF00;
     }
+    .w3-sidebar {
+      display: none;
+    }
 }
 .barranav{
     overflow: hidden;

@@ -15,15 +15,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif+Display:wght@300&family=Playfair+Display:wght@500&family=Shizuru&family=Source+Sans+Pro&display=swap');
+       </style>
 
     <style>
       table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 30%;
-        margin-top: 4%;
-        position: fixed;
         background-color:	#C0C0C0;
       }
       
@@ -36,6 +36,18 @@
       tr:nth-child(even) {
         background-color: #8FBC8F;
       }
+      h3{
+        margin-top:0;
+      }
+      .w3-sidebar {
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+    margin-top: 8%;
+}
       </style>
 
 </head>
@@ -57,53 +69,89 @@
         </nav>
       </div>
 
-      <table>
-        <tr>
-          <th>Bebidas</th>
-          <th>Platillos</th>
-          <tr>
-          <td>  <a href="b1">Semilla de Jícaro</a></td>
-            <td> <a href="p1">Nacatamal</a></td>
-          </tr>
-          <tr>
-            <td> <a href="b2">Pinolillo</a></td>
-            <td> <a href="p2">Vigorón</a></td>
-          </tr>
-          <tr>
-            <td><a href="b3">Chicha de maíz</a></td>
-            <td><a href="p3">Quesillo</a></td>
-          </tr>
-        </tr>
-        <tr>
-          <td><a href="b4">Tiste</a></td>
-          <td><a href="p4">Gallopinto</a></td>
-        </tr>
-        <tr>
-          <td><a href="b5">Jugo de Pitahaya</a></td>
-          <td><a href="p5">Tostones</a></td>
-        </tr>
-        <tr>
-          <td><a href="b6">Cacao</a></td>
-          <td><a href="p6">Carne tapda</a></td>
-        </tr>
-        <tr>
-          <td><a href="b7">Arroz con piña</a></td>
-          <td><a href="p7">Chancho con yuca</a></td>
-        </tr>
-        <tr>
-          <td><a href="b8">Fresco de Calala</a></td>
-          <td><a href="p8">Tajadas</a></td>
-        </tr>
-        <tr>
-          <td><a href="b9">Chía con tamarindo</a></td>
-          <td><a href="p9">Almíbar</a></td>
-        </tr>
-        <tr>
-          <td><a href="b10">Tibio</a></td>
-          <td><a href="p10">Indio Viejo</a></td>
-        </tr>
-      </table>
-      <center><p>PLATILLOS</p></center>
+      <div  class="jumbotron text-center" style="font-family: 'Playfair Display', serif; color: #228B22;">
+        <h1>Recetas de Fritanga <br> totalmente Nicaraguenses</h1>
+      </div>
+    
+      <div class="w3-sidebar w3-collapse" id="sidenav" style="top: 118px;">
+        <div id="leftmenuinner" style="padding-top: 18px;">
+          <div id="leftmenuinnerinner" style="overflow-y: scroll;">
+      <!--  <a href='javascript:void(0)' onclick='close_menu()' class='w3-button w3-hide-large w3-large w3-display-topright' style='right:16px;padding:3px 12px;font-weight:bold;'>&times;</a>-->
+      <center><h2 class="left"><span style=" font-family: 'Playfair Display', serif; color: #228B22" class="left_h2">Platillos</span></h2> <br>
+      </center> <ul>
+        <a href="p1">Nacatamal</a><br>
+        <a href="p2">Vigorón</a><br>
+        <a href="p3">Quesillo</a><br>
+        <a href="p4">Gallopinto</a><br>
+        <a href="p5">Tostones</a><br>
+        <a href="p6">Carne tapda</a><br>
+        <a href="p7">Chancho con yuca</a><br>
+        <a href="p8">Tajadas</a><br>
+        <a href="p9">Indio Viejo</a><br>
+        <a href="p10">Sopa de queso</a><br>
+        <a href="p11">Guirila</a><br>
+        <a href="p12">Tamal pisque</a><br>
+        <a href="p13">Enchiladas</a>
+      </ul>
+      <div class="tut_overview">
+         <ul>   
+        <br><br><center><h2  style="font-family: 'Playfair Display', serif; color: #228B22"><span class="left_h2">Postres</span></h2></center><br>
+        <a href="pos1">Buñuelos</a><br>
+        <a href="pos2">Sopa Borracha</a><br>
+        <a href="pos3">Almíbar</a><br>
+        <a href="pos4">Ayote en miel</a><br>
+          <a href="pos5">Cajeta de coco</a><br>
+          <a href="pos6">Perrereque</a>
+        </ul>
+      </div>
+      <div class="tut_overview">
+        <ul>
+          <br><br><center><h2  style="font-family: 'Playfair Display', serif; color: #228B22"><span class="left_h2">Bebidas</span></h2></center><br>
+          <a href="b1">Semilla de Jícaro</a><br>
+          <a href="b2">Pinolillo</a><br>
+          <a href="b3">Chicha de maíz</a><br>
+          <a href="b4">Tiste</a><br>
+          <a href="b5">Cacao</a><br>
+          <a href="b6">Tibio</a><br>
+          <a href="b7">Macuá</a><br>
+        </ul>
+      </div>
+      <div class="tut_overview">
+        <ul>
+          <br><br><center><h2  style="font-family: 'Playfair Display', serif; color: #228B22"><span class="left_h2">Jugos <br> de <br> fruta</span></h2></center><br>
+          <a href="j1">Chía con tamarindo</a><br>
+          <a href="j2">Calala</a><br>
+          <a href="j3">Arroz con piña</a><br>
+          <a href="j4">Pitahaya</a><br>
+          <a href="j5">Guayaba</a><br>
+          <a href="j6">Cebada con leche</a><br>
+        </ul>
+      </div>
+      
+      <br>
+      <a target="_top" href="/tags/default.asp">HTML Tag List</a>
+      <a target="_top" href="/tags/ref_attributes.asp">HTML Attributes</a>
+      <a target="_top" href="/tags/ref_standardattributes.asp">HTML Global Attributes</a>
+      <a target="_top" href="/tags/ref_html_browsersupport.asp">HTML Browser Support</a>
+      <a target="_top" href="/tags/ref_eventattributes.asp">HTML Events</a>
+      <a target="_top" href="/tags/ref_colornames.asp">HTML Colors</a>
+      <a target="_top" href="/tags/ref_canvas.asp">HTML Canvas</a>
+      <a target="_top" href="/tags/ref_av_dom.asp">HTML Audio/Video</a>
+      <a target="_top" href="/tags/ref_html_dtd.asp">HTML Doctypes</a>
+      <a target="_top" href="/tags/ref_charactersets.asp">HTML Character Sets</a>
+      <a target="_top" href="/tags/ref_urlencode.asp">HTML URL Encode</a>
+      <a target="_top" href="/tags/ref_language_codes.asp">HTML Lang Codes</a>
+      <a target="_top" href="/tags/ref_httpmessages.asp">HTTP Messages</a>
+      <a target="_top" href="/tags/ref_httpmethods.asp">HTTP Methods</a>
+      <a target="_top" href="/tags/ref_pxtoemconversion.asp">PX to EM Converter</a>
+      <a target="_top" href="/tags/ref_keyboardshortcuts.asp">Keyboard Shortcuts</a>
+            <br><br>
+          </div>
+        </div>
+      </div>
+
+      <center><h3 style="font-family: 'Playfair Display', serif; color: #228B22">PLATILLOS</h3></center>
+      
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>       
 </body>
