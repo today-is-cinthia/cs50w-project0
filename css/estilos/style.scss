@@ -1,4 +1,9 @@
-@media (min-width: 500px){
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 500px) {
     .barranav{
         background-color:#90EE90;
     }
@@ -12,6 +17,9 @@
     .w3-sidebar {
       display: none;
     }
+    #img{
+      width: 50%;
+    }
 }
 .barranav{
     overflow: hidden;
@@ -20,7 +28,7 @@
     width: 100%;
 }
 body{
-    background-image: url(css/fondo.jpg); 
+    background-image: url(/css/fondo.jpg); 
     background-position:center; 
     background-repeat: no-repeat; 
     background-size: 100% 100%; 
@@ -48,15 +56,16 @@ table {
   .w3-sidebar {
 height: 100%;
 width: 20%;
-background-color: #FFE4E1;
+background-color: #fff;
 position: fixed!important;
 z-index: 1;
 overflow: auto;
-margin-top: 8%;
+margin-top:7.8%;
 }
 
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13{
     color: #483D8B;
     font-family: 'Playfair Display', serif;
 }
+
 
