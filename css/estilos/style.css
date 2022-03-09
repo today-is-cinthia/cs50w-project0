@@ -5,7 +5,7 @@
 
 @media (min-width: 500px) {
   .barranav {
-    background-color: #90EE90;
+    background-color: #32CD32;
   }
 }
 
@@ -79,5 +79,17 @@ h3 {
 #titulo {
   color: #228B22;
   font-family: "Playfair Display", serif;
+}
+
+#sobrenosconte {
+  background-color: #fff;
+}
+
+#sobrenosconte #change {
+  background-color: lavenderblush;
+}
+
+.jumbotron, .w3-sidebar {
+  background-color: lavenderblush;
 }
 /*# sourceMappingURL=style.css.map */
