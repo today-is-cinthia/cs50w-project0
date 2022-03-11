@@ -24,7 +24,9 @@ $fuente:'Playfair Display', serif;
       width: 50%;
     }
 
-
+    .row{
+      display: inline-block;
+    }
 
 }
 .barranav{
@@ -95,7 +97,17 @@ margin-top:6.3%;
 
 .jumbotron, .w3-sidebar
 {
-  background-color: lavenderblush;
+  background-color: #fff;
 }
 
+.card{
+  height: 20%;
+  width: 60%;
+  .card-title{
+    @extend #titulo
+  }
+  .card-text{
+    @extend #parrafo
+  }
+}
 

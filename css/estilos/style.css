@@ -19,6 +19,9 @@
   #img {
     width: 50%;
   }
+  .row {
+    display: inline-block;
+  }
 }
 
 .barranav {
@@ -72,11 +75,11 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 
-#parrafo {
+#parrafo, .card .card-text {
   font-family: "Playfair Display", serif;
 }
 
-#titulo {
+#titulo, .card .card-title {
   color: #228B22;
   font-family: "Playfair Display", serif;
 }
@@ -90,6 +93,11 @@ h3 {
 }
 
 .jumbotron, .w3-sidebar {
-  background-color: lavenderblush;
+  background-color: #fff;
+}
+
+.card {
+  height: 20%;
+  width: 60%;
 }
 /*# sourceMappingURL=style.css.map */
