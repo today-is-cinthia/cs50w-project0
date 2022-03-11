@@ -24,10 +24,6 @@ $fuente:'Playfair Display', serif;
       width: 50%;
     }
 
-    .row{
-      display: inline-block;
-    }
-
 }
 .barranav{
     overflow: hidden;
@@ -103,6 +99,7 @@ margin-top:6.3%;
 .card{
   height: 20%;
   width: 60%;
+  margin-left: 55px;
   .card-title{
     @extend #titulo
   }

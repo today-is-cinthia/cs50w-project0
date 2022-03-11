@@ -19,9 +19,6 @@
   #img {
     width: 50%;
   }
-  .row {
-    display: inline-block;
-  }
 }
 
 .barranav {
@@ -99,5 +96,6 @@ h3 {
 .card {
   height: 20%;
   width: 60%;
+  margin-left: 55px;
 }
 /*# sourceMappingURL=style.css.map */
