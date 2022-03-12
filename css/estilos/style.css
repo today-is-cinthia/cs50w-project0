@@ -67,35 +67,20 @@ h3 {
   margin-top: 6.3%;
 }
 
-#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
-  color: #006400;
-  font-family: 'Playfair Display', serif;
-}
-
-#parrafo, .card .card-text {
-  font-family: "Playfair Display", serif;
-}
-
-#titulo, .card .card-title {
+#p1, #titulo, #p2, #p3, #p4, #p5, #p6, #p7 {
   color: #228B22;
   font-family: "Playfair Display", serif;
 }
 
-#sobrenosconte {
+#parrafo {
+  font-family: "Playfair Display", serif;
+}
+
+#sobrenosconte, .jumbotron, .w3-sidebar {
   background-color: #fff;
 }
 
-#sobrenosconte #change {
+#sobrenosconte #change, .jumbotron #change, .w3-sidebar #change {
   background-color: lavenderblush;
-}
-
-.jumbotron, .w3-sidebar {
-  background-color: #fff;
-}
-
-.card {
-  height: 20%;
-  width: 60%;
-  margin-left: 55px;
 }
 /*# sourceMappingURL=style.css.map */
